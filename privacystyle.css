@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+     
+    }
+    
+    h1 {
+      font-size: 28px;
+    }
+    
+    h2 {
+      font-size: 22px;
+      margin-top: 30px;
+    }
+    
+    p {
+      margin-bottom: 15px;
+    }
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:'poppins',sans-serif;
+
+}
+
+header{
+	position:fixed ;
+	top:30;
+	left: 0;
+	width: 100%;
+	padding: 5px 100px;
+	background: #1A1717;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index:99;
+}
+.navigation a{
+	position: relative;
+	font-size: 1.1em;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 40px;
+}
+.navigationbar{
+	display:flex;
+	align-items: center;
+	padding: 20px;
+}
+.navigationbar .btnlogin-popup
+{
+	margin-top: 20px;
+	width: 130px;
+	height: 40px;
+	background: transparent;
+	border:2px solid #fff;
+	outline:none;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 1.1em;
+	color: #fff;
+	font-weight: 500;
+	margin-left: 30px;
+	transition: .5s;
+}
+.navigationbar .btnlogin-popup:hover{
+	background:#fff;
+	color: #162938;
+	
+}
+	
+.logo{
+	margin-top: 30px;
+	transform: translateX(-50px);
+	transition: transform 0.5s;
+}
+.nav{
+	flex: 1;
+	text-align: right;
+}
+.cart{
+	height: 30px;
+	margin-top: 30px;
+	
+}
+nav ul{
+	display:inline-block;
+	list-style-type: none;
+	
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+	
+}
+
+.navigation a::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom:-6px;
+	width: 100px;
+	height: 3px;
+	background: #fff;
+	border-radius:5px;
+	transform:scaleX(0);
+	transform-origin:center;
+	transition: transform.5s;
+	
+}
+
+.navigation a:hover::after{
+	transform: scaleX(1);
+
+}
+
+.content{
+	margin-top: 70px;
+	margin-left: 100px;
+}
+.probtn{
+	display: inline-block;
+	background: #000;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: background 0.5s;
+	text-decoration: none;
+}
+
+.probtn:hover{
+	background:#050505;
+}
+li{
+	margin-left: 20px;
+}

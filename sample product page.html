@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Product </title>
+	<link rel="stylesheet" href="samplestyle.css" type="text/css">
+</head>
+
+<body>
+	<!--navigation bar--->
+<div class="header">
+<div class="container">
+		<div class="navigationbar"> 
+		<header>
+        <div class="logo">
+			<img src="logo stepup.jpg" width="60px">
+		</div>
+		<nav class="navigation">
+			<ul>
+				<li><a href="product.html">Products</a></li>
+				<li><a href="contact.html">Contact us</a></li>
+				<li><a href="webpage.html">Home</a></li>
+				<li><a href="privacy policy.html">Privacy & terms</a></li>
+				<li><a href="login.html"><button class="btnlogin-popup">Login</button></a></li>
+				<li><a href="register.html"><button class="btnlogin-popup">Sign up</button></a></li>
+			
+				 
+			</ul>	
+			
+	</nav>
+	
+		<a href=""><img src="cart.jpg" width="30px" height="30px" class="cart"></a>
+			</header>
+			</div>
+			<!---product--->
+	<div class="small container single-product">
+		<div class="row">
+			<div class="col-2">
+				<img src="product 7.jpg" width="100%" id="productImg">
+				<div class="small-img-row">
+					<div class="small-img-col">
+						<img src="product 7.jpg" width="100%" id="smallimg">
+				</div>
+			</div>
+		</div>
+			<div class="col-2">
+				<h2>Performance shoe</h2>
+				<h3>30% off</h3>
+				<h4>$50.00</h4>
+				<select>
+					<option>Select size</option>
+					<option>US 6/UK 5.5</option>
+					<option>US 6.5/UK 6</option><option>US 7/UK 6.5</option><option>US 7.5/UK 7</option><option>US 8/UK 7.5</option><option>US 8.5/UK 8</option><option>US 9/UK 8.5</option>
+					<option>US 9.5/UK 8</option>
+					<input type="number" value="1">
+					<a href="cart.html" class="probtn">Add to cart</a>
+					
+				</select>
+				<br>
+			  <p><b>product description</b></p><br>
+				<p>Introducing the ultimate sports shoe for athletes and fitness enthusiasts: our cutting-edge Performance Pro Sports Shoe. Engineered to deliver unparalleled performance and comfort, this shoe is designed to elevate your athletic prowess to new heights.</p><br>
+				<p>Crafted with meticulous attention to detail, the Performance Pro Sports Shoe combines advanced features and premium materials to provide an exceptional sports experience. The shoe features a lightweight yet durable construction, allowing you to move swiftly and effortlessly on any terrain.</p></br>
+				<p><small><i>This shoe can be customized according to your liking (The design will not be changed, color of the shoe size, color of the stripes,lace,name dsigned on the shoe are some of the features that can be customized Only 20 customized shoes are allowed so hurry up!! (prices may vary) )</i></small></p><br>
+					<p><b>Enter your details if you prefer a customized shoe.</b></p><br>
+			   <form>
+				  <label for="email">Email:</label>
+				  <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+
+				  <label for="contact">Contact Number:</label>
+				  <input type="tel" id="contact" name="contact" placeholder="Enter your contact number" required></br>
+			 <p>Select the features you want to customize</p><br>
+							<input type="checkbox" id="checkbox1" name="checkbox1">
+							<label for="checkbox1">Lace</label><br>
+
+							<input type="checkbox" id="checkbox2" name="checkbox2">
+							<label for="checkbox2">Color</label><br>
+
+							<input type="checkbox" id="checkbox3" name="checkbox3">
+							<label for="checkbox3">Design/pattern color</label><br>
+
+							<input type="checkbox" id="checkbox4" name="checkbox4">
+							<label for="checkbox4">Name on the shoe</label><br><br>
+
+				  <input type="submit" value="Submit">
+			       
+				   <p><br>We will contact you with in 2-4 business days</p>
+				</form>
+					
+
+			</div>
+	</div>
+</div>
+	</div>
+	</div>
+	<div class="rowsizechart">
+		<br><br><br><br>
+		<h2>Size Guide</h2>
+	<img src="size chart.jpg" id="sizechart">
+		<br><br>
+		<a href="webpage.html" class="probtn">Back to home page</a>
+	</div>
+	<script>
+		var productImg=document.getElementById("productImg");
+		var smallImg=Document.getElementsByClassName("smallimg");
+		
+		smallImg[0].onclick=function()
+		{
+			producing.src=smallImg[0].src;
+		}
+		smallImg[1].onclick=function()
+		{
+			producing.src=smallImg[1].src;
+		}
+		smallImg[2].onclick=function()
+		{
+			producing.src=smallImg[2].src;
+		}
+		smallImg[3].onclick=function()
+		{
+			producing.src=smallImg[3].src;
+		}
+	</script>
+</body>
+</html>
